@@ -1,31 +1,4 @@
 /* ========================
-   Variables (Colors)
-======================== */
-:root {
-    --primary-color: #d4a574;
-    --text-dark: #333;
-    --text-light: #888;
-    --bg-light: #f9f9f9;
-    --white: #fff;
-    --border-color: #e0e0e0;
-}
-
-/* ========================
-   Global Reset
-======================== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: var(--white);
-}
-
-/* ========================
    Slider Section
 ======================== */
 .slider-grid {
