@@ -1,0 +1,163 @@
+/* ========================
+   Contact Page Styles
+======================== */
+.contact-section {
+    padding: 40px 0 80px;
+}
+
+.contact-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.page-title-contact {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--text-dark);
+}
+
+/* Contact Image */
+.contact-image {
+    margin-bottom: 40px;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Contact Intro */
+.contact-intro {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.contact-intro p {
+    font-size: 15px;
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+/* Contact Form */
+.contact-form-wrapper {
+    text-align: left;
+}
+
+.form-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--text-dark);
+}
+
+.contact-form-main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.send-message-btn {
+    align-self: flex-start;
+    background: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 14px 35px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-transform: uppercase;
+}
+
+.send-message-btn:hover {
+    background: var(--text-dark);
+}
+
+/* ========================
+   Social Bar
+======================== */
+.social-bar {
+    background: var(--bg-light);
+    padding: 25px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.social-link-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--text-light);
+    font-size: 11px;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.social-link-item img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.6;
+}
+
+.social-link-item:hover {
+    color: var(--primary-color);
+}
+
+/* ========================
+   Footer (Updated)
+======================== */
+.footer {
+    background-color: #1a1a1a;
+    padding: 25px 0;
+    border-top: none;
+}
+
+.footer .copyright {
+    color: var(--text-light);
+    font-size: 12px;
+}
