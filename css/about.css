@@ -1,0 +1,233 @@
+/* ========================
+   Variables (Colors)
+======================== */
+:root {
+    --primary-color: #d4a574;
+    --text-dark: #333;
+    --text-light: #888;
+    --bg-light: #f9f9f9;
+    --white: #fff;
+    --border-color: #e0e0e0;
+}
+
+/* ========================
+   Global Reset
+======================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--white);
+}
+
+/* ========================
+   About Section
+======================== */
+.about-section {
+    padding: 60px 0;
+}
+
+.page-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--text-dark);
+}
+
+.about-hero {
+    margin-bottom: 50px;
+}
+
+.about-hero img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto 50px;
+}
+
+.info-title {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+    text-transform: uppercase;
+}
+
+.info-text {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+.social-boxes {
+    display: flex;
+    gap: 8px;
+}
+
+.social-box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.social-box:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.social-box img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.6;
+}
+
+.social-box:hover img {
+    opacity: 1;
+    filter: brightness(0) invert(1);
+}
+
+.about-story {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.story-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+}
+
+.story-text {
+    font-size: 15px;
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+/* ========================
+   Gallery Section
+======================== */
+.gallery-section {
+    padding: 40px 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.02);
+}
+
+.gallery-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+/* ========================
+   Instagram Section
+======================== */
+.instagram-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.instagram-title {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-transform: uppercase;
+}
+
+/* ========================
+   Social Bar
+======================== */
+.social-bar {
+    background: var(--bg-light);
+    padding: 25px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.social-link-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--text-light);
+    font-size: 11px;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.social-link-item img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.6;
+}
+
+.social-link-item:hover {
+    color: var(--primary-color);
+}
+
+/* ========================
+   Footer (Updated)
+======================== */
+.footer {
+    background-color: #1a1a1a;
+    padding: 25px 0;
+    border-top: none;
+}
+
+.footer .copyright {
+    color: var(--text-light);
+    font-size: 12px;
+}
