@@ -1,7 +1,3 @@
-/* ========================
-   LEFT SIDEBAR PAGE LAYOUT
-======================== */
-
 /* Main Layout Container */
 .single-post {
     padding: 40px 0;
@@ -16,9 +12,6 @@
     padding: 0 20px;
 }
 
-/* ========================
-   SIDEBAR (LEFT SIDE)
-======================== */
 .sidebar {
     display: flex;
     flex-direction: column;
