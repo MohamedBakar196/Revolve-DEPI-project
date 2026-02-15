@@ -106,7 +106,7 @@
     transform: translate(-50%, -50%);
     width: 80px;
     height: 80px;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -803,51 +803,39 @@
    SOCIAL BAR
 ======================== */
 .social-bar {
-    background: #fafafa;
-    padding: 30px 0;
-    border-top: 1px solid #eee;
+    background: var(--white);
+    border-top: 1px solid var(--border-color);
+    padding: 20px 0;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-.social-link-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    color: #888;
-    font-size: 11px;
-    letter-spacing: 1px;
-    transition: color 0.3s;
-    text-transform: uppercase;
+    gap: 100px;
 }
 
 .social-link-item img {
-    width: 16px;
-    height: 16px;
-    opacity: 0.6;
+    width: 18px;
+    opacity: 0.7;
+    transition: 0.3s;
 }
 
-.social-link-item:hover {
-    color: #c9a87c;
+.social-link-item img:hover {
+    opacity: 1;
 }
 
 /* ========================
    FOOTER
 ======================== */
 .footer {
-    background-color: #1a1a1a;
-    padding: 25px 0;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 13px;
+    color: var(--text-light);
 }
 
 .copyright {
     text-align: center;
-    font-size: 12px;
-    color: #666;
+    font-size: 13px;
+    color: var(--text-light);
 }
-
